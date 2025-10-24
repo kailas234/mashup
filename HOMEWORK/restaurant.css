@@ -1,0 +1,33 @@
+h3{
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: red;
+}
+#intro p{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+#footer p{
+    position: absolute bottom ;
+    text-align: center;
+    font-size: small;
+    font-style: italic;
+    color: coral;
+}
+table,th,td{
+    border: 6px red solid;
+    border-collapse: collapse;
+    width: 60%;
+    text-align: center;
+    padding: 12px;
+    align-content: center;
+    margin: auto;
+}
+.material-icons{  
+color:red;  
+font-size:50px;  
+margin:10px;  
+}
