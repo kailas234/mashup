@@ -11,14 +11,13 @@ h3{
     word-spacing: 1px;
 }
 #footer p{
-    position: absolute bottom ;
     text-align: center;
     font-size: small;
     font-style: italic;
     color: coral;
 }
 table,th,td{
-    border: 6px red solid;
+    border: 6px solid green;
     border-collapse: collapse;
     width: 60%;
     text-align: center;
@@ -26,8 +25,26 @@ table,th,td{
     align-content: center;
     margin: auto;
 }
-.material-icons{  
+.material-symbols-outlined {  
 color:red;  
-font-size:50px;  
-margin:10px;  
+font: size 100px;
+margin: 10px;
+text-align: center;
+}
+.material-symbols-outlined {
+    color:red;  
+font: size 100px;
+margin: 10px;
+text-align: center;
+}
+  
+#link {
+    text-align: center;
+}
+a:hover{
+    cursor: pointer;
+    color: brown;
+}
+a{
+    text-decoration: none;
 }
