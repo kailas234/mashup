@@ -1,0 +1,28 @@
+h1{
+    position: sticky;
+    text-align: center;
+}
+#main{
+    position: relative;
+    border: 2px solid black;
+    width: 800px;
+    height: 150px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+img{
+    float: left;
+    margin: auto;   
+    width: auto;
+}
+#contactinfo{
+    position: absolute;top: 0; right: 0;
+    border: left 3px solid blue;
+    float: right;
+    margin: auto;
+    padding: 10px;
+    clear: left;
+    overflow: scroll;
+    text-align: center;
+}

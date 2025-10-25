@@ -11,10 +11,14 @@ h3{
     word-spacing: 1px;
 }
 #footer p{
-    text-align: center;
-    font-size: small;
+    font-size: large;
     font-style: italic;
     color: coral;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    /* left: 0; */
+    width: 100%;
 }
 table,th,td{
     border: 6px solid green;
@@ -47,4 +51,7 @@ a:hover{
 }
 a{
     text-decoration: none;
+}
+body{
+    min-height: 100vh;
 }

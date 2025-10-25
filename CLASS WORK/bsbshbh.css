@@ -1,0 +1,31 @@
+header{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    width: auto;
+}
+div{
+    border: 2px solid black;
+    margin: auto;
+    padding: 100px;
+    width: 50%;
+    background-color: rgb(210, 240, 250);
+    overflow: scroll;
+}
+img{
+    float: left;
+}
+p{
+    text-align: left;
+}
+h2{
+    text-align: center;
+}
+.helo{
+    clear: left;
+}
+.material-symbols-outlined {
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
