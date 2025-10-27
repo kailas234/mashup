@@ -1,0 +1,45 @@
+#section1{
+    border: 2px solid red;
+    margin: auto;
+    background-color: lightblue;
+    /* width: 50%;height: auto; */    
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+#section1 p::first-line{
+    font-weight: bold;
+    font-size: 20px;
+}
+#section1 p::first-letter{
+    color: red;
+    font-size: 30px;
+    font-weight: bold
+}
+#section2{
+    border: 2px solid green;
+    margin: auto;
+    background-color: lightyellow;
+    /* width: 50%;height: auto; */    
+    padding: 20px;
+    font-family: 'Times New Roman', serif;
+}
+[class|="second"]{
+    color: green;
+}
+#firstlink{
+    
+    color: red;
+}
+#secondlink{
+    color: blue;
+}
+#thirdlink{
+    color: blue;
+}
+#firstlink:hover{
+    color: blue;
+    text-decoration: underline;
+}
+#secondlink:visited{
+    color: purple;
+}

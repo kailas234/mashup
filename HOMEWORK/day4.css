@@ -10,6 +10,7 @@ h1{
     margin: auto;
     padding: 10px;
     text-align: center;
+    background-color: rgb(152, 174, 182)
 }
 img{
     float: left;
@@ -18,11 +19,13 @@ img{
 }
 #contactinfo{
     position: absolute;top: 0; right: 0;
-    border: left 3px solid blue;
+    border-left: 3px solid blue;
+    border-bottom: 3px solid blue;
     float: right;
     margin: auto;
     padding: 10px;
     clear: left;
     overflow: scroll;
     text-align: center;
+    background-color: rgb(184, 202, 147);
 }
