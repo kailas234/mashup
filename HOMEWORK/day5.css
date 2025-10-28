@@ -1,0 +1,35 @@
+div{
+    border: 2px solid black;
+    margin: auto;
+    width: auto;
+    text-align: center;
+}
+img{
+    float: left;
+}
+p{
+    text-align: left;
+}
+p::first-line{
+    font-weight: bold;
+}
+p::first-letter{
+    font-size: larger;
+    color: red;
+}
+blockquote{
+    font-family: cursive;
+    position: relative;
+    padding: 20px;
+    background-color: lightgray;
+    margin: 40px;
+    border-left: 10px solid gray;
+}
+blockquote::before{
+    content: "“";
+    font-size: 4em;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    color: gray;
+} 
